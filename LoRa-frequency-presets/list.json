@@ -1,0 +1,18 @@
+{
+    "Vega": {
+        "fileName" : "vega.json",
+        "description": "Vega"
+    },
+    "RU868": {
+        "fileName" : "RU868.json",
+        "description": "RU868"
+    },
+    "EU868": {
+        "fileName" : "EU868.json",
+        "description": "EU868"
+    },
+    "KZ868": {
+        "fileName" : "KZ868.json",
+        "description": "KZ868"
+    }
+}

@@ -1,0 +1,35 @@
+{
+	"serverConfigs": {
+		"description": "",
+		"frontAppPort": 80,
+		"serverPort": 3001,
+		"language": "ru",
+		"isRebootLoraOnSaveConfigs": true
+	},
+	"loraGlobalConfigs": {
+		"description": "",
+		"filePath": "/home/root/LoRa/packet_forwarder/lora_pkt_fwd/",
+		"fileName": "global_conf.json"
+	},
+	"loraVersionFile": {
+		"description": "",
+		"fileDir": "/home/root/LoRa/packet_forwarder/",
+		"fileName": "VERSION"
+	},
+	"networkConfigs": {
+		"description": "",
+		"fileDir": "/etc/network/",
+		"fileName": "interfaces",
+		"DnsFileName": "eth0_resolv.conf"
+	},
+	"wireless3GConfigs": {
+		"description": "isSupported-{true/false/auto('auto' means auto checking)} ",
+		"isSupported": "auto",
+		"interfaceManagerFileDir": "/home/root/",
+		"interfaceManagerFileName": "interface_manager.sh",
+		"fileDir": "/etc/",
+		"fileName": "wvdial.conf"
+	},
+	"loggerLevel": "info",
+	"maxLevelForConsoleLogger": "verbose"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "BS_dashboard",
+  "version": "s-0.7.0/c-0.8.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1"
+  }
+}

@@ -1,0 +1,87 @@
+@font-face {
+   font-family: Vega-font;
+   src: url(fonts/MuseoSansCyrl_0.otf);
+}
+
+body {
+    font-family: Vega-font, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.centered {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.warning {
+	background-color: #fa5;
+}
+
+input {
+	height: 30px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	margin: 0;
+    padding: 0 4px;
+}
+
+button, button:hover, button:active, button:focus {
+    background-color: transparent;
+    border: none;
+}
+
+.btn, .btn:hover, .btn:active, .btn:focus {
+    border: 1px solid #ccc;
+}
+
+.button {
+	padding: 4px;
+    background-color: white;
+    color: #466df7;
+    border: 2px solid #89a3ff;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #e9f5ff;
+    border: 2px solid #89a3ff;
+    color: #466df7;
+}
+
+.button:focus {
+    border: 2px solid #89a3ff;
+    background-color: white;
+}
+
+.button:active {
+    background-color: #89a3ff;
+    border: 2px solid #4b68f9;
+    color: white;
+}
+
+.block {
+	background-color: #eee;
+    border: 1px solid ;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+.dropdown-menu .description{
+    padding: 5px;
+}
+.dropdown-menu .requires {
+    background-color: #fdf4e5;
+    padding: 5px;
+}
