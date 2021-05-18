@@ -8,26 +8,27 @@
 	},
 	"loraGlobalConfigs": {
 		"description": "",
-		"filePath": "/opt/LoRa/bin/",
+		"filePath": "/home/root/LoRa/packet_forwarder/lora_pkt_fwd/",
 		"fileName": "global_conf.json"
 	},
 	"loraVersionFile": {
 		"description": "",
-		"fileDir": "/opt/LoRa/bin/",
+		"fileDir": "/home/root/LoRa/packet_forwarder/",
 		"fileName": "VERSION"
 	},
 	"networkConfigs": {
 		"description": "",
-		"fileDir": "/etc/network.d/",
-		"fileName": "interface.eth0",
-		"DnsFileName": "resolv.conf",
-		"DnsFileDir": "/etc/"
-	  },
+		"fileDir": "/etc/network/",
+		"fileName": "interfaces",
+		"DnsFileName": "eth0_resolv.conf"
+	},
 	"wireless3GConfigs": {
 		"description": "isSupported-{true/false/auto('auto' means auto checking)} ",
 		"isSupported": "auto",
-		"fileDir": "/etc/default/",
-		"fileName": "ppp"
+		"interfaceManagerFileDir": "/home/root/",
+		"interfaceManagerFileName": "interface_manager.sh",
+		"fileDir": "/etc/",
+		"fileName": "wvdial.conf"
 	},
 	"loggerLevel": "info",
 	"maxLevelForConsoleLogger": "verbose"
