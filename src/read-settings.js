@@ -12,9 +12,9 @@ const readSettings = (MAIN_DIR, logger, next) => {
 
     let softwareRevision = 1;
     let tempSoftwareRevision = NaN;
-    let validPROD_INFO = typeof PROD_INFO === 'object' && PROD_INFO !== null;
-    let validSoftwareRevision = validPROD_INFO && PROD_INFO.Software_revision;
-    if(validSoftwareRevision) tempSoftwareRevision = parseInt(PROD_INFO.Software_revision);
+    let validPROD_INFO = typeof prodInfo === 'object' && prodInfo !== null;
+    let validSoftwareRevision = validPROD_INFO && prodInfo.Software_revision;
+    if(validSoftwareRevision) tempSoftwareRevision = parseInt(prodInfo.Software_revision);
     if(!isNaN(tempSoftwareRevision)) softwareRevision = tempSoftwareRevision;
     if ( softwareRevision >= 2 ) pathRootSettings = '/src/02-root-settings.json';
 
